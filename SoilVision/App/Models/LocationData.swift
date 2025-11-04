@@ -1,5 +1,6 @@
 import Foundation
 import CoreLocation
+import MapKit
 
 struct LocationData: Codable, Equatable, Hashable {
     let latitude: Double

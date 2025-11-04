@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Repository Browser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Git Repository Browser</h1>
+            <div class="header-info">
+                <span id="repo-name">Loading...</span>
+                <span id="scan-time">--</span>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search files and folders..." />
+                <button id="clear-search" class="clear-btn" style="display: none;">×</button>
+                <span id="search-count" class="search-count"></span>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="file-tree-container">
+                <div class="tree-header">
+                    <h2>Files</h2>
+                    <div class="tree-stats">
+                        <span id="total-files">0 files</span>
+                        <span id="total-size">0 KB</span>
+                    </div>
+                </div>
+                <div id="file-tree" class="file-tree">
+                    <div class="loading">Loading repository structure...</div>
+                </div>
+            </div>
+
+            <div class="details-panel">
+                <div class="details-header">
+                    <h2>File Details</h2>
+                </div>
+                <div id="file-details" class="file-details">
+                    <div class="no-selection">
+                        <p>Select a file to view its details</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div id="error-message" class="error-message" style="display: none;">
+            <div class="error-content">
+                <h3>Error</h3>
+                <p id="error-text"></p>
+                <button onclick="this.parentElement.parentElement.style.display='none'">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

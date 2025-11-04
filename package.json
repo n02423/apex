@@ -1,0 +1,55 @@
+{
+  "name": "git-repo-browser",
+  "version": "1.0.0",
+  "description": "A local web application that dynamically displays Git repository file structures in a clean, collapsible tree view interface",
+  "main": "repo-scan.js",
+  "bin": {
+    "git-repo-browser": "./repo-scan.js"
+  },
+  "scripts": {
+    "scan": "node repo-scan.js",
+    "scan:help": "node repo-scan.js --help",
+    "scan:version": "node repo-scan.js --version",
+    "start": "echo 'Open index.html in your browser to start using the Git Repository Browser'",
+    "test": "node repo-scan.js . && echo '✅ Scanner test passed'",
+    "clean": "rm -f repo-structure.json",
+    "status": "ls -la && echo 'Repository structure file exists:' && test -f repo-structure.json && echo '✅ repo-structure.json found' || echo '❌ repo-structure.json not found'"
+  },
+  "keywords": [
+    "git",
+    "repository",
+    "browser",
+    "file-explorer",
+    "tree-view",
+    "web",
+    "frontend",
+    "node",
+    "scanner",
+    "file-structure"
+  ],
+  "author": "Git Repository Browser",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/git-repo-browser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/git-repo-browser/issues"
+  },
+  "homepage": "https://github.com/your-username/git-repo-browser#readme",
+  "preferGlobal": false,
+  "files": [
+    "index.html",
+    "style.css",
+    "script.js",
+    "repo-scan.js",
+    "README.md",
+    "package.json",
+    ".gitignore"
+  ],
+  "devDependencies": {},
+  "dependencies": {}
+}

@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01234567890ABCDEF0000001 /* SoilVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF0000000 /* SoilVisionApp.swift */; };
+		01234567890ABCDEF0000003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF0000002 /* ContentView.swift */; };
+		01234567890ABCDEF0000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF0000004 /* Assets.xcassets */; };
+		01234567890ABCDEF0000008 /* SoilClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF0000007 /* SoilClassifier.mlmodel */; };
+		01234567890ABCDEF000000A /* SoilResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF0000009 /* SoilResult.swift */; };
+		01234567890ABCDEF000000C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF000000B /* User.swift */; };
+		01234567890ABCDEF000000E /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF000000D /* LocationData.swift */; };
+		01234567890ABCDEF0000010 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF000000F /* AuthManager.swift */; };
+		01234567890ABCDEF0000012 /* SoilClassifierService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF0000011 /* SoilClassifierService.swift */; };
+		01234567890ABCDEF0000014 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF0000013 /* ImageProcessor.swift */; };
+		01234567890ABCDEF0000016 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF0000015 /* LocationManager.swift */; };
+		01234567890ABCDEF0000018 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF0000017 /* DatabaseManager.swift */; };
+		01234567890ABCDEF000001A /* SyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF0000019 /* SyncManager.swift */; };
+		01234567890ABCDEF000001C /* ReportExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF000001B /* ReportExporter.swift */; };
+		01234567890ABCDEF000001E /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF000001D /* CameraView.swift */; };
+		01234567890ABCDEF0000020 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF000001F /* ResultView.swift */; };
+		01234567890ABCDEF0000022 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF0000021 /* HistoryView.swift */; };
+		01234567890ABCDEF0000024 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF0000023 /* ProfileView.swift */; };
+		01234567890ABCDEF0000026 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF0000025 /* OnboardingView.swift */; };
+		01234567890ABCDEF0000028 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF0000027 /* CameraViewModel.swift */; };
+		01234567890ABCDEF000002A /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF0000029 /* ResultViewModel.swift */; };
+		01234567890ABCDEF000002C /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF000002B /* HistoryViewModel.swift */; };
+		01234567890ABCDEF000002E /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF000002D /* ProfileViewModel.swift */; };
+		01234567890ABCDEF0000030 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF000002F /* Extensions.swift */; };
+		01234567890ABCDEF0000032 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF0000031 /* Constants.swift */; };
+		01234567890ABCDEF0000034 /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01234567890ABCDEF0000033 /* Validators.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01234567890ABCDEF0000001 /* SoilVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoilVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01234567890ABCDEF0000000 /* SoilVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoilVisionApp.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF0000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF0000004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01234567890ABCDEF0000007 /* SoilClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SoilClassifier.mlmodel; sourceTree = "<group>"; };
+		01234567890ABCDEF0000009 /* SoilResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoilResult.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF000000B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF000000D /* LocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF000000F /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF0000011 /* SoilClassifierService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoilClassifierService.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF0000013 /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF0000015 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF0000017 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF0000019 /* SyncManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncManager.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF000001B /* ReportExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportExporter.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF000001D /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF000001F /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF0000021 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF0000023 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF0000025 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF0000027 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF0000029 /* ResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF000002B /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF000002D /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF000002F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF0000031 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		01234567890ABCDEF0000033 /* Validators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01234567890ABCDEF00000FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01234567890ABCDEF0000F8 /* SoilVision */ = {
+			isa = PBXGroup;
+			children = (
+				01234567890ABCDEF0000F9 /* App */,
+				01234567890ABCDEF0000FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01234567890ABCDEF0000F9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				01234567890ABCDEF0000000 /* SoilVisionApp.swift */,
+				01234567890ABCDEF0000002 /* ContentView.swift */,
+				01234567890ABCDEF0000FB /* Views */,
+				01234567890ABCDEF0000FC /* Models */,
+				01234567890ABCDEF0000FD /* ViewModels */,
+				01234567890ABCDEF0000FE /* Services */,
+				01234567890ABCDEF0000FF /* Utils */,
+				01234567890ABCDEF0000004 /* Assets.xcassets */,
+				01234567890ABCDEF0000100 /* Resources */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		01234567890ABCDEF0000FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01234567890ABCDEF0000001 /* SoilVision.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01234567890ABCDEF0000FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01234567890ABCDEF000001D /* CameraView.swift */,
+				01234567890ABCDEF000001F /* ResultView.swift */,
+				01234567890ABCDEF0000021 /* HistoryView.swift */,
+				01234567890ABCDEF0000023 /* ProfileView.swift */,
+				01234567890ABCDEF0000025 /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01234567890ABCDEF0000FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01234567890ABCDEF0000009 /* SoilResult.swift */,
+				01234567890ABCDEF000000B /* User.swift */,
+				01234567890ABCDEF000000D /* LocationData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01234567890ABCDEF0000FD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				01234567890ABCDEF0000027 /* CameraViewModel.swift */,
+				01234567890ABCDEF0000029 /* ResultViewModel.swift */,
+				01234567890ABCDEF000002B /* HistoryViewModel.swift */,
+				01234567890ABCDEF000002D /* ProfileViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		01234567890ABCDEF0000FE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				01234567890ABCDEF000000F /* AuthManager.swift */,
+				01234567890ABCDEF0000011 /* SoilClassifierService.swift */,
+				01234567890ABCDEF0000013 /* ImageProcessor.swift */,
+				01234567890ABCDEF0000015 /* LocationManager.swift */,
+				01234567890ABCDEF0000017 /* DatabaseManager.swift */,
+				01234567890ABCDEF0000019 /* SyncManager.swift */,
+				01234567890ABCDEF000001B /* ReportExporter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		01234567890ABCDEF0000FF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				01234567890ABCDEF000002F /* Extensions.swift */,
+				01234567890ABCDEF0000031 /* Constants.swift */,
+				01234567890ABCDEF0000033 /* Validators.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		01234567890ABCDEF0000100 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01234567890ABCDEF0000007 /* SoilClassifier.mlmodel */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01234567890ABCDEF0000FF /* SoilVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01234567890ABCDEF0000120 /* Build configuration list for PBXNativeTarget "SoilVision" */;
+			buildPhases = (
+				01234567890ABCDEF0000FC /* Sources */,
+				01234567890ABCDEF0000FE /* Frameworks */,
+				01234567890ABCDEF000100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoilVision;
+			productName = SoilVision;
+			productReference = 01234567890ABCDEF0000001 /* SoilVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01234567890ABCDEF0000F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					01234567890ABCDEF0000FF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 01234567890ABCDEF0000FA /* Build configuration list for PBXProject "SoilVision" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01234567890ABCDEF0000F8 /* SoilVision */;
+			productRefGroup = 01234567890ABCDEF0000FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01234567890ABCDEF0000FF /* SoilVision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01234567890ABCDEF000100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01234567890ABCDEF0000005 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01234567890ABCDEF0000FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01234567890ABCDEF0000003 /* ContentView.swift in Sources */,
+				01234567890ABCDEF0000001 /* SoilVisionApp.swift in Sources */,
+				01234567890ABCDEF0000008 /* SoilClassifier.mlmodel in Sources */,
+				01234567890ABCDEF000000A /* SoilResult.swift in Sources */,
+				01234567890ABCDEF000000C /* User.swift in Sources */,
+				01234567890ABCDEF000000E /* LocationData.swift in Sources */,
+				01234567890ABCDEF0000010 /* AuthManager.swift in Sources */,
+				01234567890ABCDEF0000012 /* SoilClassifierService.swift in Sources */,
+				01234567890ABCDEF0000014 /* ImageProcessor.swift in Sources */,
+				01234567890ABCDEF0000016 /* LocationManager.swift in Sources */,
+				01234567890ABCDEF0000018 /* DatabaseManager.swift in Sources */,
+				01234567890ABCDEF000001A /* SyncManager.swift in Sources */,
+				01234567890ABCDEF000001C /* ReportExporter.swift in Sources */,
+				01234567890ABCDEF000001E /* CameraView.swift in Sources */,
+				01234567890ABCDEF0000020 /* ResultView.swift in Sources */,
+				01234567890ABCDEF0000022 /* HistoryView.swift in Sources */,
+				01234567890ABCDEF0000024 /* ProfileView.swift in Sources */,
+				01234567890ABCDEF0000026 /* OnboardingView.swift in Sources */,
+				01234567890ABCDEF0000028 /* CameraViewModel.swift in Sources */,
+				01234567890ABCDEF000002A /* ResultViewModel.swift in Sources */,
+				01234567890ABCDEF000002C /* HistoryViewModel.swift in Sources */,
+				01234567890ABCDEF000002E /* ProfileViewModel.swift in Sources */,
+				01234567890ABCDEF0000030 /* Extensions.swift in Sources */,
+				01234567890ABCDEF0000032 /* Constants.swift in Sources */,
+				01234567890ABCDEF0000034 /* Validators.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01234567890ABCDEF000011E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01234567890ABCDEF000011F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01234567890ABCDEF0000121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoilVision/App/Assets.xcassets\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soilvision.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01234567890ABCDEF0000122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoilVision/App/Assets.xcassets\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soilvision.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01234567890ABCDEF0000FA /* Build configuration list for PBXProject "SoilVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01234567890ABCDEF000011E /* Debug */,
+				01234567890ABCDEF000011F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01234567890ABCDEF0000120 /* Build configuration list for PBXNativeTarget "SoilVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01234567890ABCDEF0000121 /* Debug */,
+				01234567890ABCDEF0000122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCXConfigurationList section */
+	};
+	rootObject = 01234567890ABCDEF0000F7 /* Project object */;
+}

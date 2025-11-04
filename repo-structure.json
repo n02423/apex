@@ -1,0 +1,58 @@
+{
+  "name": "apex",
+  "path": "/workspace/cmhk9810z0034r7io70yo4qkn/apex",
+  "scanned_at": "2025-11-04T07:41:38.422Z",
+  "total_files": 5,
+  "total_size": 35897,
+  "stats": {
+    "scanned_directories": 1,
+    "errors": 0
+  },
+  "structure": [
+    {
+      "name": "index.html",
+      "type": "file",
+      "path": "index.html",
+      "size": 2201,
+      "extension": "html",
+      "modified": "2025-11-04T07:39:50.307Z",
+      "created": "2025-11-04T07:39:50.307Z"
+    },
+    {
+      "name": "README.md",
+      "type": "file",
+      "path": "README.md",
+      "size": 6,
+      "extension": "md",
+      "modified": "2025-11-04T07:35:31.667Z",
+      "created": "2025-11-04T07:35:31.667Z"
+    },
+    {
+      "name": "repo-scan.js",
+      "type": "file",
+      "path": "repo-scan.js",
+      "size": 11184,
+      "extension": "js",
+      "modified": "2025-11-04T07:41:29.897Z",
+      "created": "2025-11-04T07:41:29.897Z"
+    },
+    {
+      "name": "script.js",
+      "type": "file",
+      "path": "script.js",
+      "size": 15317,
+      "extension": "js",
+      "modified": "2025-11-04T07:41:10.092Z",
+      "created": "2025-11-04T07:41:10.092Z"
+    },
+    {
+      "name": "style.css",
+      "type": "file",
+      "path": "style.css",
+      "size": 7189,
+      "extension": "css",
+      "modified": "2025-11-04T07:40:23.728Z",
+      "created": "2025-11-04T07:40:23.728Z"
+    }
+  ]
+}

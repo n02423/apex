@@ -1,9 +1,9 @@
 {
   "name": "apex",
   "path": "/workspace/cmhk9810z0034r7io70yo4qkn/apex",
-  "scanned_at": "2025-11-04T07:41:38.422Z",
-  "total_files": 5,
-  "total_size": 35897,
+  "scanned_at": "2025-11-04T07:42:26.454Z",
+  "total_files": 7,
+  "total_size": 45814,
   "stats": {
     "scanned_directories": 1,
     "errors": 0
@@ -19,13 +19,22 @@
       "created": "2025-11-04T07:39:50.307Z"
     },
     {
+      "name": "package.json",
+      "type": "file",
+      "path": "package.json",
+      "size": 1586,
+      "extension": "json",
+      "modified": "2025-11-04T07:42:17.946Z",
+      "created": "2025-11-04T07:42:17.946Z"
+    },
+    {
       "name": "README.md",
       "type": "file",
       "path": "README.md",
-      "size": 6,
+      "size": 6960,
       "extension": "md",
-      "modified": "2025-11-04T07:35:31.667Z",
-      "created": "2025-11-04T07:35:31.667Z"
+      "modified": "2025-11-04T07:41:54.913Z",
+      "created": "2025-11-04T07:41:54.913Z"
     },
     {
       "name": "repo-scan.js",
@@ -35,6 +44,15 @@
       "extension": "js",
       "modified": "2025-11-04T07:41:29.897Z",
       "created": "2025-11-04T07:41:29.897Z"
+    },
+    {
+      "name": "repo-structure.json",
+      "type": "file",
+      "path": "repo-structure.json",
+      "size": 1377,
+      "extension": "json",
+      "modified": "2025-11-04T07:41:38.417Z",
+      "created": "2025-11-04T07:41:38.417Z"
     },
     {
       "name": "script.js",
